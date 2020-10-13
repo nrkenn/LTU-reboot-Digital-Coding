@@ -2,4 +2,6 @@ Module / Session date
 
 1.3 - 13/10/20
 
-In today's session we were introduced to Git/Github. We were given a quick demo on the advantages of using VScode. We have done an introductory demonstration to for how to commit changes in files to a repo that we cloned onto our machine. 
+Reflection
+
+In today's session we were introduced to Git/Github. We were given a quick demo on the advantages of using VScode. We had an introductory demonstration on how to commit changes in files to a repo that we cloned onto our machine. 
