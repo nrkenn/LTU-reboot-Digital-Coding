@@ -4,4 +4,16 @@ Module / Session date
 
 Reflection
 
-In today's session we were introduced to Git/Github. We were given a quick demo on the advantages of using VScode. We had an introductory demonstration on how to commit changes in files to a repo that we cloned onto our machine. 
+In todays session we were introduced to Git/Github. We were given a quick demo on the advantages of using VScode. We had an introductory demonstration on how to commit changes in files to a repo that we cloned onto our machine.
+
+We learnt about how Git is a massive part of the web developers toolkit, where you can save work, so you have a chronological history of a project.
+
+Github helps with code reviews, project management, integration, automation and security, and solidifies the processes you need to go through as a developer. 
+
+It allows you to reread the code you are developing and I like the idea that it enables code reviews, getting more eyes on to your code, which I think will be an important learning tool as I seek to develop my skillset in development.
+
+I think the colour coding aspect of Github will be a really helpful tool in tracking changes to code, new elements and deletions. 
+
+From seeing some coding in action, I also got a clearer sense of the differences between HTML, CSS and Javascript in terms of their functions and interactions in the development of a website.
+
+Finding out a bit more about the Extensions available in VSCode was also cool and it was good to get a sense of some of the functionality of these additional tools. There is clearly a development community out there who are seeking to create tools in order to address issues that other developers are likely to have on their work, which is really positive to see.
