@@ -1,0 +1,17 @@
+img {
+    max-width: 300px;
+}
+
+h1 {
+    color: purple;
+}
+
+h2 {
+    color: seagreen;
+}
+
+li{
+    background-color: blue;
+    color: yellow;
+}
+
