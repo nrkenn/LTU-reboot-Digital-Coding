@@ -1,4 +1,7 @@
+a:link {color: #F0000;}
+a:visited {color:#00ff00}
 a:hover {
-    color: blue;
+    columns: #ff00ff;
     font-size: 32px;
 }
+a:active {color:#0000FF}
