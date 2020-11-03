@@ -1,0 +1,11 @@
+.sidebar, .main {
+    border: 1 px;
+    width: 400px;
+}
+
+.sidebar {
+    float: right;
+}
+.main {
+    float: left;
+}
