@@ -1,5 +1,5 @@
-var kittensName ='Flffy ';
+var kittensName = 'Fluffy';
 
 var fullName = kittensName + 'McDougle';
 
-console.log(fullName; // Outputs 'Fluffy McDougle');
+console.log(fullName); // Outputs 'Fluffy McDougle');
