@@ -1,34 +1,38 @@
 function calculator ( number1, number2, operator ) {
 
+var result = ' ';
+
 switch ( operator ) {
+
     case '+' :
         result = number1 + number2;
         console.log ( number1 + ' + ' + number2 + ' = ' + result );
         break;
 
-
-
-        case '-':
-            console.log( number1 - number2 );
+        case '-' :
+            result = number1 - number2;
+            console.log ( number1 + ' - ' + number2 + ' = ' + result );
             break;
             
+     case '/' :
+         result = number1 / number2;
+         console.log ( number1 + '/' + number2 + '=' + result );
+         break;
+
+         case '*' :
+             result = number1 * number2;
+             console.log ( number1 + '*' + number2 + '=' + result );
+             break;
+
+             case '%' :
+                 result = number1 % number2;
+             console.log ( number1 + '%' + number2 + '=' + result );
+             break;
+
     default:
-        // ERROR MESSAGE
+        console.log ('Cannot calculate this')
         break;
+
     }
 
-
-
-
-
-
-
-
 }
-
-
-// + Addition
-// - Subtraction
-// / Division
-// * Multiply
-// % Modulus
