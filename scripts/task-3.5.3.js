@@ -62,7 +62,36 @@ let shoppingCart = [
 
     function discountAmount( arr, discountAmount, type) {
 
-        //
+        var totalPrice = 0; 
 
+        for( var index = 0; index < arr.length; index++ ) {
+
+        if ( arr[index].type === type ) {
+
+            var discount = ( arr[index].price * discountAmount ) / 100;
+
+        totalPrice = totalPrice + (arr[index].price - discount ) * arr[index].quantity;
+
+        } else if ( type === 'any') {
+
+            var discount = ( arr[index].price * discountAmount ) / 100;
+
+            totalPrice = totalPrice + (arr[index].price - discount ) * arr[index].quantity;
+
+        } else {
+
+            totalPrice = totalPrice + ( arr[index].price - discount) * arr[index].quantity;
+
+        }
+
+
+
+        return totalPrice.toFixed(2);
+
+    }
+
+    console.log( ' All product have 20% discount : ' + discountAmount( shoppingCart, 20, 'any' ) );
+    console.log( ' Food product have 15% : ' + discountAmount( shoppingCart, 15, 'food' ) );
+    console.log( ' Food product have 25% : ' + discountAmount( shoppingCart, 15, 'alcohol' ) );
 
     }
