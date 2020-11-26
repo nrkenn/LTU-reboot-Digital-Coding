@@ -12,10 +12,29 @@ active.classList.add('active');
 
 }
 
+function toggleimages( dataClass ) {
+
+    if( dataClass === 'all') {
+
+        allimages.forEach( function( image ){
+
+            image.style.display = 'block';
+
+        })
+    } else {
+
+        allimages.forEach( image => { image.dataset.class === dataClass ?
+            image.style.display = 'block' :
+            image.style.display = 'none';
+        })
+    }
+}
+
 listItems.forEach( function(item){
 
     item.addEventListener('click', function() {
-        //toggleActiveClass( item );
-        console.log('You clicked me!');
+        toggleActiveClass( item );
+        toggleimages( item.dataset.class );
     })
+    
 })
