@@ -1,8 +1,19 @@
-.main imag {
+.selection-container {
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.main img {
     width: 200px;
+    margin: 15px;
 }
 
 .active {
     background-color: grey;
     color: white;
+}
+
+.images-selections {
+    display: flex;
+    flex-wrap: wrap;
 }
